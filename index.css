@@ -1,0 +1,234 @@
+#container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e0e0e0;
+  padding: 10px;
+}
+
+#barcontainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#stage {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ffe373; /*rgba(224,224,224,1.0);*/
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#clues {
+  height:210px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#answers {
+  height:136px;
+  width:544px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clue0 {
+  color: #339bb9;
+}
+
+#clue1 {
+  color: #57a957;
+}
+
+#clue2 {
+  color: #d9b31a;
+}
+
+#clue3 {
+  color: #9c202a;
+}
+
+header, footer {
+  background: #6a93d4;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  height: 20px;
+  padding-left: 30px;
+}
+
+h1 {
+  color: #052d6e;
+  text-align: center;
+}
+
+header p {
+  color: #052d6e;
+  text-align: center;
+}
+
+a:link {color: #052d6e;}
+a:hover {color: #104ba9;}
+a:visited {color: #284a7e;}
+
+.btn {
+  color: #e0e0e0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#scorearea {
+  height: 80px;
+  background: #ffaa73;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#spacer {
+  height: 50%;
+  margin-bottom:-20px;
+}
+
+#startbuttons {
+  height: 40px;
+  text-align: center;
+}
+
+#finalscorearea {
+  display: none;
+  height: 40px;
+}
+
+#stats {
+  width: 510px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  margin: 0px;
+}
+
+#score, #lives, #streak, #question {
+  height: 40px;
+  display: none;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#score, #lives, #streak {
+  width: 200px;
+}
+
+#question {
+  width: 50px;
+}
+
+.element-box {
+  width: 100px;
+  height: 100px;
+
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -o-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -khtml-border-radius: 25px;
+  border-radius: 25px;
+
+  border: 8px solid #052d6e;
+
+  background: #ffe373;
+
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+.element-box:hover {
+  background: #a68500;
+}
+
+.element-box .symbol {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  vertical-align: middle;
+  background: rgba(0,0,0,0.0);
+}
+.element-box .name {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(255,255,255,0.0);
+}
+.element-box .number {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(255,255,255,0.0);
+}
+.element-box .symbol span.label {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 92px;
+  color: #052d6e;
+  background: rgba(255,255,255,0.0);
+}
+.element-box .name span.label {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  line-height: 14;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #052d6e;
+  background: rgba(255,255,255,0.0);
+}
+.element-box .number span.label {
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #052d6e;
+  background: rgba(255,255,255,0.0);
+}
+
+.copyright {
+  float:left;
+}
+
+.socialbox {
+  float:right;
+}
+
+.clear {
+  clear:both;
+}
