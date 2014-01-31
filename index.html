@@ -11,6 +11,7 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
     <div id="container">
 
       <header>
@@ -37,8 +38,8 @@
       <div id="scorearea">
         <div id="spacer"></div>
         <div id="startbuttons">
-          <a onclick="App.startGame('normal');" class="btn btn-primary btn-large">
-            Score Mode
+          <a onclick="App.startGame('20 questions');" class="btn btn-primary btn-large">
+            20 Questions Mode
           </a>
           <a onclick="App.startGame('survival');" class="btn btn-primary btn-large">
             Survival Mode
@@ -67,9 +68,13 @@
           Copyright &copy; 2014 <a href="https://twitter.com/ben_deane">Ben Deane</a>.
         </div>
         <div class="socialbox">
-          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-          <fb:share-button href="http://www.elbeno.com/guessthelement/" type="button_count"></fb:share-button>
-          <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300" data-href="http://www.elbeno.com/guessthelement/"></div>
+          <div id="tweetit" style="float:left;">
+            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          </div>
+          <div id="fbshareit" style="float:left; width:118px;">
+            <fb:share-button href="http://www.elbeno.com/guessthelement/" type="button_count"></fb:share-button>
+          </div>
+          <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="200" data-href="http://www.elbeno.com/guessthelement/"></div>
         </div>
       </footer>
     </div>

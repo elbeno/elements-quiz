@@ -74,10 +74,11 @@ var fadeTime = 200;
       this.currentQuestion = 0;
 
       // fade out start buttons, fade in score
+      var self = this;
       $("#startbuttons").fadeOut(fadeTime, function() {
         $("#question").fadeIn(fadeTime);
         $("#score").fadeIn(fadeTime);
-        if (mode == 'survival') {
+        if (self.mode == 'survival') {
           $("#lives").fadeIn(fadeTime);
         }
         else {
@@ -240,8 +241,12 @@ var fadeTime = 200;
                                         + "<a onclick=\"App.playAgain();\" "
                                         + "class=\"btn btn-primary btn-large\">"
                                         + "Play Again</a>"
-                                        + "<a onclick=\"App.tweetScore();\" "
-                                        + "class=\"btn btn-primary btn-large\">"
+                                        + "<a id=\"tweetref\" href=\"https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F&amp;text=I%20scored%20"
+                                        + this.score
+                                        + "%20on%20Guess%20the%20Element%20"
+                                        + this.mode
+                                        + "%20mode%21&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F\" "
+                                        + "class=\"btn btn-primary btn-large novisit\">"
                                         + "Tweet Your Score</a></div>");
       }
       else {

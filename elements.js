@@ -43,7 +43,7 @@ var elements =
     "I am used to treat some mental illnesses.",
     "I am commonly used in rechargable batteries to power electronics.",
     "I produce red sparks when I am used in fireworks.",
-    "I react with water, producing Hydrogen and a strong alkali.",
+    "I react with water, producing hydrogen and a strong alkali.",
     "I was formed in the Big Bang."
   ]},
 
@@ -93,9 +93,33 @@ var elements =
   ]},
 
   {name:"Nitrogen", symbol:"N ", clues:[
+    "I make up almost 80% of the air you breathe.",
+    "I can form strong bonds and I am present in many explosives.",
+    "I am a common nonmetal.",
+    "I am a very unreactive gas.",
+    "In my liquid form I can be used to quickly make ice cream.",
+    "I give divers the bends if they decompress too quickly.",
+    "Daniel Rutherford, a scotsman, discovered me in 1772.",
+    "I boil at about -196°C - brr!",
+    "Together with hydrogen, I make ammonia.",
+    "I am an important ingredient of plant fertilisers.",
+    "I am used as a protective atmosphere around packaged food.",
+    "I am a colourless, odourless, and tasteless gas.",
   ]},
 
   {name:"Oxygen", symbol:"O ", clues:[
+    "I am the third most common element in the universe.",
+    "Joseph Priestley discovered me in 1774.",
+    "I am essential to almost all life on earth.",
+    "I am very reactive and form compounds with most elements.",
+    "Fires can't burn without me.",
+    "Plants produce me when they photosynthesise.",
+    "My name means \"acid-forming\" in Greek.",
+    "A form of me in the upper atmosphere protects the earth from UV radiation.",
+    "As a liquid I'm used as rocket fuel.",
+    "I make up about 21% of the earth's atmosphere.",
+    "I make iron rusty.",
+    "I am the most common element in the earth's crust - and in you!",
   ]},
 
   {name:"Fluorine", symbol:"F ", clues:[

@@ -71,10 +71,6 @@ header p {
   text-align: center;
 }
 
-a:link {color: #052d6e;}
-a:hover {color: #104ba9;}
-a:visited {color: #284a7e;}
-
 .btn {
   color: #e0e0e0;
   margin-left: 10px;
@@ -238,6 +234,10 @@ h2 {
   clear:both;
 }
 
+.copyright a:link {color: #052d6e;}
+.copyright a:hover {color: #104ba9;}
+.copyright a:visited {color: #284a7e;}
+
 .socialbox {
   float:right;
 }
@@ -269,4 +269,8 @@ h2 {
   margin-right: auto;
   text-align: center;
   margin-top: 45px;
+}
+
+.novisit:visited {
+  color:inherit;
 }
