@@ -127,7 +127,7 @@ var fadeTime = 200;
       // show the possible answers
       $("#answers").fadeIn(fadeTime);
       for (var i = 0; i < 4; ++i) {
-        $("#answers").append("<div id=\"elementbox" + (i+1) + "\" class=\"element-box\" "
+        $("#answers").append("<div id=\"elementbox" + (i+1) + "\" class=\"element-box left hover-box\" "
                              + " onclick=\"App.selectAnswer("
                              + answers[i] + ");\">"
                              + "<div class=\"number\"><span class=\"label\">"
@@ -153,9 +153,9 @@ var fadeTime = 200;
         return this.selectAnswer(-1);
       }
       var selectorStr = "clue" + this.clueIndex;
-      $("#clues").append("<div id=" + selectorStr + " style=\"display:none\";><h3>"
+      $("#clues").append("<div id=\"" + selectorStr + "\" style=\"display:none;\"><h4>"
                          + this.clues[this.clueIndex]
-                         + "</h3></div>");
+                         + "</h4></div>");
       $("#" + selectorStr).fadeIn(fadeTime);
 
       if (this.clueIndex == 0) {
@@ -173,7 +173,16 @@ var fadeTime = 200;
     },
 
     selectAnswer: function(element) {
-      console.log("selectAnswer " + element);
+      // score
+      var correct = (element == this.questions[this.currentQuestion]);
+      var qscore = 0;
+      if (correct) {
+        qscore = this.rightAnswer();
+      }
+      else {
+        this.wrongAnswer();
+      }
+      this.currentQuestion++;
 
       // reset progress bar
       $(".ui-progress", this.progressBar).stop(true);
@@ -184,15 +193,6 @@ var fadeTime = 200;
       this.progressBar.removeClass("error");
       this.progressBar.addClass("blue");
       $(".ui-progress", this.progressBar).css("width", "100%");
-
-      // score
-      if (element == this.questions[this.currentQuestion]) {
-        this.rightAnswer();
-      }
-      else {
-        this.wrongAnswer();
-      }
-      this.currentQuestion++;
 
       // fade out clues and answers
       for (var i = 0; i < 4; ++i) {
@@ -205,24 +205,73 @@ var fadeTime = 200;
       $("#elementbox3").fadeOut(fadeTime);
 
       var self = this;
+      $("#elementbox4").fadeOut(fadeTime, function() {
+        $("#clues").empty();
+        $("#answers").empty();
+        self.showQuestionResult(correct, self.questions[self.currentQuestion - 1], qscore);
+      });
+    },
+
+    tweetScore: function() {
+    },
+
+    showQuestionResult: function(correct, element, qscore) {
+      var resultStr = correct ?
+        "Correct! " + qscore + " points!" :
+        "Wrong! The correct answer was:";
+
+      $("#questionresultarea").append("<div id=\"questionresult\">"
+                                      + "<h3 style=\"line-height:80px;\">"
+                                      + resultStr
+                                      + "</h3></div>");
+      $("#questionresultarea").append("<div class=\"element-box centred\" id=\"answerbox\">"
+                                      + "<div class=\"number\"><span class=\"label\">"
+                                      + (element+1)
+                                      + "</span></div>"
+                                      + "<div class=\"symbol\"><span class=\"label\">"
+                                      + elements[element].symbol
+                                      + "</span></div>"
+                                      + "<div class=\"name\"><span class=\"label\">"
+                                      + elements[element].name
+                                      + "</span></div></div>");
       if (this.gameIsOver()) {
-        $("#elementbox4").fadeOut(fadeTime, function() {
-          $("#clues").empty();
-          $("#answers").empty();
-          self.endGame();
-        });
+        this.endGame();
+        $("#questionresultarea").append("<div id=\"nextquestion\">"
+                                        + "<a onclick=\"App.playAgain();\" "
+                                        + "class=\"btn btn-primary btn-large\">"
+                                        + "Play Again</a>"
+                                        + "<a onclick=\"App.tweetScore();\" "
+                                        + "class=\"btn btn-primary btn-large\">"
+                                        + "Tweet Your Score</a></div>");
       }
       else {
-        $("#elementbox4").fadeOut(fadeTime, function() {
-          $("#clues").empty();
-          $("#answers").empty();
-          self.askQuestion();
-        });
+        $("#questionresultarea").append("<div id=\"nextquestion\">"
+                                        + "<a onclick=\"App.nextQuestion();\" "
+                                        + "class=\"btn btn-primary btn-large\">"
+                                        + "Next Question</a></div>");
       }
+      $("#questionresultarea").fadeIn(fadeTime);
+    },
+
+    nextQuestion: function() {
+      var self = this;
+      $("#questionresultarea").fadeOut(fadeTime, function() {
+        $("#questionresultarea").empty();
+        self.askQuestion();
+      });
+    },
+
+    playAgain: function() {
+      var self = this;
+      $("#questionresultarea").fadeOut(fadeTime, function() {
+        $("#questionresultarea").empty();
+        self.reset();
+      });
     },
 
     questionScore: function() {
-      return 100 * this.multiplier;
+      var w = $(".ui-progress", this.progressBar).width();
+      return Math.floor(w/10) * this.multiplier;
     },
 
     calculateMultiplier: function() {
@@ -236,10 +285,12 @@ var fadeTime = 200;
     },
 
     rightAnswer: function() {
-      this.score += this.questionScore();
+      var qscore = this.questionScore();
+      this.score += qscore;
       this.streak++;
       this.multiplier = this.calculateMultiplier();
       this.updateStats();
+      return qscore;
     },
 
     updateStats: function() {
@@ -258,7 +309,8 @@ var fadeTime = 200;
 
     endGame: function() {
       $("#finalscore").empty();
-      $("#finalscore").append("<h2>Final Score: " + this.score + "</h2>");
+      $("#finalscore").append("<h2>Final Score: "
+                              + this.score + "</h2>");
 
       this.inProgress = false;
       if (this.mode == 'survival') {

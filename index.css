@@ -61,7 +61,7 @@ footer {
   padding-left: 30px;
 }
 
-h1 {
+h1, h2, h3 {
   color: #052d6e;
   text-align: center;
 }
@@ -145,11 +145,23 @@ h2 {
   background: #ffe373;
 
   position: relative;
-  float: left;
   margin: 10px;
 }
-.element-box:hover {
+
+.hover-box {
+}
+
+.hover-box:hover {
   background: #a68500;
+}
+
+.left {
+  float: left;
+}
+
+.centred {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .element-box .symbol {
@@ -200,7 +212,7 @@ h2 {
   -ms-font-smoothing: antialiased;
   -khtml-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  line-height: 14;
+  margin-top: 75px;
   text-align: center;
   font-size: 12px;
   font-weight: bold;
@@ -223,12 +235,38 @@ h2 {
 
 .copyright {
   float:left;
+  clear:both;
 }
 
 .socialbox {
   float:right;
 }
 
-.clear {
-  clear:both;
+#finalscore {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#questionresultarea {
+  display: none;
+  height: 210px;
+  margin-top: -230px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#questionresult {
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+}
+
+#nextquestion {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 45px;
 }
