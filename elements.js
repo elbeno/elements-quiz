@@ -123,333 +123,506 @@ var elements =
   ]},
 
   {name:"Fluorine", symbol:"F ", clues:[
+    "I am one of the halogens.",
+    "I am extremely reactive and poisonous.",
+    "I am added to water and toothpaste to keep teeth healthy.",
+    "I am so reactive, I can even make compounds with some noble gases!",
+    "I am a very pale yellow gas.",
+    "When I react with hydrogen, I can form an acid that can etch glass.",
+    "I am an important ingredient of refrigerant gases.",
   ]},
 
   {name:"Neon", symbol:"Ne", clues:[
+    "I am a noble gas.",
+    "I am used in signs - pass a current through me and I glow red.",
+    "I was discovered in 1898.",
+    "My name means \"new\" in Greek.",
+    "I am abundant in the universe, but rare on earth.",
   ]},
 
   {name:"Sodium", symbol:"Na", clues:[
+    "I am an alkali metal.",
+    "I react explosively with water.",
+    "I am important in the body - I help your nerves work.",
+    "I am a soft, silver-white, very reactive metal",
+    "I was first isolated by Humphry Davy in 1807.",
+    "I am used in street lamps where I produce an intense yellow light.",
+    "I am one of the elements in salt.",
+    "I am used as a liquid coolant in some nuclear reactors.",
   ]},
 
   {name:"Magnesium", symbol:"Mg", clues:[
+    "I am an alkaline earth metal.",
   ]},
 
   {name:"Aluminum", symbol:"Al", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Silicon", symbol:"Si", clues:[
+    "I am a metalloid.",
+    "The earth's crust is made of my compounds.",
+    "I am used to make computer chips.",
+    "I am in sand, bricks, glass, and plenty of other things.",
+    "Extremely pure wafers of me are used for semiconductors.",
+    "A valley south of the San Fransisco bay is named for me.",
+    "Polymers containing me are rubbery and heat-resistant.",
+    ""
   ]},
 
   {name:"Phosphorus", symbol:"P ", clues:[
+    "I am a very reactive nonmetal.",
+    "I am used in matches.",
+    "I come in several forms - red, white and black.",
+    "I am inside all your cells in your DNA!",
+    "An acid named after me is commonly used in soda.",
+    "My name means \"light-carrier\" and was the ancient Greek name for the planet Venus.",
+    "I am sometimes called \"The Devil\'s Element\" because I was the 13th to be discovered.",
+    "I am one of the elements that makes up your bones.",
+    "My white form burns fiercely and is used as an incendiary.",
+    "I am used extensively in fertilisers.",
   ]},
 
   {name:"Sulfur", symbol:"S ", clues:[
+    "I am a yellow nonmetal.",
+    "I have been known since ancient times.",
+    "My old name was brimstone.",
+    "Lots of my compounds smell bad.",
+    "I form an acid which is important for many industrial processes.",
+    "I am in acid rain.",
   ]},
 
   {name:"Chlorine", symbol:"Cl", clues:[
+    "I am one of the halogens.",
   ]},
 
   {name:"Argon", symbol:"Ar", clues:[
+    "I am a noble gas.",
   ]},
 
   {name:"Potassium", symbol:"K ", clues:[
+    "I am an alkali metal.",
   ]},
 
   {name:"Calcium", symbol:"Ca", clues:[
+    "I am an alkaline earth metal.",
   ]},
 
   {name:"Scandium", symbol:"Sc", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Titanium", symbol:"Ti", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Vanadium", symbol:"V ", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Chromium", symbol:"Cr", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Manganese", symbol:"Mn", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Iron", symbol:"Fe", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Cobalt", symbol:"Co", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Nickel", symbol:"Ni", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Copper", symbol:"Cu", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Zinc", symbol:"Zn", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Gallium", symbol:"Ga", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Germanium", symbol:"Ge", clues:[
+    "I am a metalloid.",
   ]},
 
   {name:"Arsenic", symbol:"As", clues:[
+    "I am a metalloid.",
   ]},
 
   {name:"Selenium", symbol:"Se", clues:[
+    "I am named after the Greek for \"moon\".",
   ]},
 
   {name:"Bromine", symbol:"Br", clues:[
+    "I am one of the halogens.",
   ]},
 
   {name:"Krypton", symbol:"Kr", clues:[
+    "I am a noble gas.",
   ]},
 
   {name:"Rubidium", symbol:"Rb", clues:[
+    "I am an alkali metal.",
   ]},
 
   {name:"Strontium", symbol:"Sr", clues:[
+    "I am an alkaline earth metal.",
   ]},
 
   {name:"Yttrium", symbol:"Y ", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Zirconium", symbol:"Zr", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Niobium", symbol:"Nb", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Molybdenum", symbol:"Mo", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Technetium", symbol:"Tc", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Ruthenium", symbol:"Ru", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Rhodium", symbol:"Rh", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Palladium", symbol:"Pd", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Silver", symbol:"Ag", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Cadmium", symbol:"Cd", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Indium", symbol:"In", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Tin", symbol:"Sn", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Antimony", symbol:"Sb", clues:[
+    "I am a metalloid.",
   ]},
 
   {name:"Tellurium", symbol:"Te", clues:[
+    "I am a metalloid.",
+    "I am named after the Roman god of the earth.",
   ]},
 
   {name:"Iodine", symbol:"I ", clues:[
+    "I am one of the halogens.",
   ]},
 
   {name:"Xenon", symbol:"Xe", clues:[
+    "I am a noble gas.",
   ]},
 
   {name:"Cesium", symbol:"Cs", clues:[
+    "I am an alkali metal.",
   ]},
 
   {name:"Barium", symbol:"Ba", clues:[
+    "I am an alkaline earth metal.",
   ]},
 
   {name:"Lanthanum", symbol:"La", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Cerium", symbol:"Ce", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Praseodymium", symbol:"Pr", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Neodymium", symbol:"Nd", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Promethium", symbol:"Pm", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Samarium", symbol:"Sm", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Europium", symbol:"Eu", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Gadolinium", symbol:"Gd", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Terbium", symbol:"Tb", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Dysprosium", symbol:"Dy", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Holmium", symbol:"Ho", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Erbium", symbol:"Er", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Thulium", symbol:"Tm", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Ytterbium", symbol:"Yb", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Lutetium", symbol:"Lu", clues:[
+    "I am a rare earth metal.",
   ]},
 
   {name:"Hafnium", symbol:"Hf", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Tantalum", symbol:"Ta", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Tungsten", symbol:"W ", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Rhenium", symbol:"Re", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Osmium", symbol:"Os", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Iridium", symbol:"Ir", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Platinum", symbol:"Pt", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Gold", symbol:"Au", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Mercury", symbol:"Hg", clues:[
+    "I am a transition metal.",
   ]},
 
   {name:"Thallium", symbol:"Tl", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Lead", symbol:"Pb", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Bismuth", symbol:"Bi", clues:[
+    "I am a so-called 'poor' metal.",
   ]},
 
   {name:"Polonium", symbol:"Po", clues:[
+    "I am a metalloid.",
   ]},
 
   {name:"Astatine", symbol:"At", clues:[
+    "I am one of the halogens.",
   ]},
 
   {name:"Radon", symbol:"Rn", clues:[
+    "I am a noble gas.",
   ]},
 
   {name:"Francium", symbol:"Fr", clues:[
+    "I am an alkali metal.",
   ]},
 
   {name:"Radium", symbol:"Ra", clues:[
+    "I am an alkaline earth metal.",
   ]},
 
   {name:"Actinium", symbol:"Ac", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Thorium", symbol:"Th", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Protactinium", symbol:"Pa", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Uranium", symbol:"U ", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Neptunium", symbol:"Np", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Plutonium", symbol:"Pu", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Americium", symbol:"Am", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Curium", symbol:"Cm", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Berkelium", symbol:"Bk", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Californium", symbol:"Cf", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Einsteinium", symbol:"Es", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Fermium", symbol:"Fm", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Mendelevium", symbol:"Md", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Nobelium", symbol:"No", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Lawrencium", symbol:"Lr", clues:[
+    "I am an actinide.",
   ]},
 
   {name:"Rutherfordium", symbol:"Rf", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
   ]},
 
   {name:"Dubnium", symbol:"Db", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
   ]},
 
   {name:"Seaborgium", symbol:"Sg", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
   ]},
 
   {name:"Bohrium", symbol:"Bh", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
   ]},
 
   {name:"Hassium", symbol:"Hs", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
   ]},
 
   {name:"Meitnerium", symbol:"Mt", clues:[
+    "I am a transactinide.",
+    "I am a synthetic element.",
+    "I am very radioactive.",
   ]},
 
   {name:"Darmstadtium", symbol:"Ds", clues:[
+    "I am a transactinide.",
+    "I am a synthetic element.",
+    "I am very radioactive.",
+    "I was created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research.",
+    "I am named for the city where I was created.",
   ]},
 
   {name:"Roentgenium", symbol:"Rg", clues:[
+    "I am a transactinide.",
+    "I am a synthetic element.",
+    "I am very radioactive.",
+    "I was created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research.",
+    "I am named for the discoverer of X-rays.",
   ]},
 
   {name:"Copernicium", symbol:"Cn", clues:[
+    "I am a transactinide.",
+    "I am a transition metal.",
+    "My most stable isotope has a half-life of about 29 seconds.",
+    "I am a transactinide.",
   ]},
 
   {name:"Ununtrium", symbol:"Uut", clues:[
+    "I am a transactinide.",
   ]},
 
   {name:"Flerovium", symbol:"Fl", clues:[
+    "I am a transactinide.",
+    "I got my name in May 2012.",
   ]},
 
   {name:"Ununpentium", symbol:"Uup", clues:[
+    "I am a transactinide.",
   ]},
 
   {name:"Livermorium", symbol:"Lv", clues:[
+    "I am a transactinide.",
+    "I got my name in May 2012.",
+    "Scientists have only produced a few dozen atoms of me.",
   ]},
 
   {name:"Ununseptium", symbol:"Uus", clues:[
+    "I am a transactinide.",
   ]},
 
   {name:"Ununoctium", symbol:"Uuo", clues:[
+    "I am a transactinide.",
+    "I am the heaviest element yet known.",
+    "Scientists have only produced a few atoms of me.",
+    "Not much is known about my properties.",
   ]},
 
 ];
