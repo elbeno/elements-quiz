@@ -147,16 +147,29 @@ var elements =
     "I am a soft, silver-white, very reactive metal",
     "I was first isolated by Humphry Davy in 1807.",
     "I am used in street lamps where I produce an intense yellow light.",
-    "I am one of the elements in salt.",
+    "I am one of the elements in table salt.",
     "I am used as a liquid coolant in some nuclear reactors.",
   ]},
 
   {name:"Magnesium", symbol:"Mg", clues:[
     "I am an alkaline earth metal.",
+    "I am the 4th most common element in the earth.",
+    "I am 14% of the earth's mass.",
+    "I burn with a brilliant white light.",
+    "Some pencil sharpeners are made of me.",
+    "My alloys are light and strong and I am used in the automotive industry.",
+    "I am in Epsom salts.",
+    "I am in a \"milk\" that can treat upset stomachs.",
+    "I am used for flares, flash photography and pyrotechnics.",
   ]},
 
-  {name:"Aluminum", symbol:"Al", clues:[
+  {name:"Aluminium", symbol:"Al", clues:[
     "I am a so-called 'poor' metal.",
+    "I am the most common metal in the earth's crust.",
+    "My ore is called bauxite.",
+    "I am a strong, light, and corrosion-resistant metal.",
+    "I am used to make all kinds of things.",
+    "My name derives from a latin word meaning \"bitter salt\".",
   ]},
 
   {name:"Silicon", symbol:"Si", clues:[
@@ -167,7 +180,7 @@ var elements =
     "Extremely pure wafers of me are used for semiconductors.",
     "A valley south of the San Fransisco bay is named for me.",
     "Polymers containing me are rubbery and heat-resistant.",
-    ""
+    "I am used (in a compound with Oxygen) as a drying agent.",
   ]},
 
   {name:"Phosphorus", symbol:"P ", clues:[
@@ -194,38 +207,73 @@ var elements =
 
   {name:"Chlorine", symbol:"Cl", clues:[
     "I am one of the halogens.",
+    "I am a yellow-green gas.",
+    "I am one of the elements in table salt.",
+    "I bleach things.",
   ]},
 
   {name:"Argon", symbol:"Ar", clues:[
     "I am a noble gas.",
+    "My name means \"lazy\" in Greek, because I don't react with anything.",
+    "I make up about 1% of the air.",
+    "I am used to fill incandescent lightbulbs.",
   ]},
 
   {name:"Potassium", symbol:"K ", clues:[
     "I am an alkali metal.",
+    "I am an important element for the function of your nerves.",
+    "Bananas are noted for containing me.",
+    "I react explosively with water.",
+    "I am commonly used in fertilizers.",
+    "I am the most common radioactive element in the human body.",
   ]},
 
   {name:"Calcium", symbol:"Ca", clues:[
     "I am an alkaline earth metal.",
+    "I am in chalk.",
+    "I am one of the elements that makes your bones strong.",
+    "Milk is a good source of me for your body.",
+    "In a flame, I produce a brick-red colour.",
+    "I am present in cement and limestone.",
   ]},
 
   {name:"Scandium", symbol:"Sc", clues:[
     "I am a transition metal.",
+    "I am sometimes called a rare earth element.",
+    "I can be alloyed with aluminium to make baseball bats and bicycle frames.",
+    "Lars Fredrik Nilson first detected me and named me.",
   ]},
 
   {name:"Titanium", symbol:"Ti", clues:[
     "I am a transition metal.",
+    "I am used in combination with other metals to make strong, light alloys.",
+    "I am very resistant to corrosion.",
+    "I have the highest strength-to-density ratio of any metal.",
+    "My oxide makes paint (and other things) bright white.",
   ]},
 
   {name:"Vanadium", symbol:"V ", clues:[
     "I am a transition metal.",
+    "I am named after the Scandinavian goddess of beauty.",
+    "I am a hard silvery-grey metal.",
+    "Small amounts of me are added to steel to increase its strength.",
   ]},
 
   {name:"Chromium", symbol:"Cr", clues:[
     "I am a transition metal.",
+    "My name is from the Greek for \"colour\" because my compounds are many-coloured.",
+    "I am a shiny, brittle metal.",
+    "School bus yellow is made with me.",
+    "A thin layer of me makes something shiny and corrosion-resistant.",
   ]},
 
   {name:"Manganese", symbol:"Mn", clues:[
     "I am a transition metal.",
+    "I am used in stainless steel.",
+    "I am a silvery-grey, hard, brittle metal.",
+    "I am a pigment in cave paintings.",
+    "I am mined in South Africa and Australia among other places.",
+    "I can replace lead in unleaded petrol.",
   ]},
 
   {name:"Iron", symbol:"Fe", clues:[
@@ -345,7 +393,7 @@ var elements =
     "I am a noble gas.",
   ]},
 
-  {name:"Cesium", symbol:"Cs", clues:[
+  {name:"Caesium", symbol:"Cs", clues:[
     "I am an alkali metal.",
   ]},
 
