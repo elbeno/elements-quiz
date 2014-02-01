@@ -23,6 +23,20 @@
         <div id="clues">
         </div>
         <div id="questionresultarea">
+          <div id="questionresult"></div>
+          <div id="answerbox" class="element-box centred">
+            <div class="symbol">
+              <span class="label">?</span>
+            </div>
+          </div>
+          <div id="nextquestion">
+            <a onclick="App.playAgain('20 questions');" class="fixedbtn btn btn-primary btn-large">
+              20 Questions Mode
+            </a>
+            <a onclick="App.playAgain('survival');" class="fixedbtn btn btn-primary btn-large">
+              Survival Mode
+            </a>
+          </div>
         </div>
         <div id="answers">
         </div>
@@ -37,14 +51,6 @@
 
       <div id="scorearea">
         <div id="spacer"></div>
-        <div id="startbuttons">
-          <a onclick="App.startGame('20 questions');" class="btn btn-primary btn-large">
-            20 Questions Mode
-          </a>
-          <a onclick="App.startGame('survival');" class="btn btn-primary btn-large">
-            Survival Mode
-          </a>
-        </div>
         <div id="finalscorearea">
           <div id="finalscore"></div>
         </div>
@@ -68,13 +74,15 @@
           Copyright &copy; 2014 <a href="https://twitter.com/ben_deane">Ben Deane</a>.
         </div>
         <div class="socialbox">
-          <div id="tweetit" style="float:left;">
-            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          <div id="plusoneit" style="float:right;">
+            <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="200" data-href="http://www.elbeno.com/guessthelement/"></div>
           </div>
-          <div id="fbshareit" style="float:left; width:118px;">
+          <div id="fbshareit" style="float:right; width:118px;">
             <fb:share-button href="http://www.elbeno.com/guessthelement/" type="button_count"></fb:share-button>
           </div>
-          <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="200" data-href="http://www.elbeno.com/guessthelement/"></div>
+          <div id="tweetit" style="float:right;">
+            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          </div>
         </div>
       </footer>
     </div>

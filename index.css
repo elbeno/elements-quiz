@@ -17,6 +17,7 @@
   background: #ffe373; /*rgba(224,224,224,1.0);*/
   margin-left: 10px;
   margin-right: 10px;
+  height: 400px;
 }
 
 #clues {
@@ -249,7 +250,6 @@ h2 {
 
 
 #questionresultarea {
-  display: none;
   height: 210px;
   margin-top: -230px;
   width: 80%;
@@ -273,4 +273,9 @@ h2 {
 
 .novisit:visited {
   color:inherit;
+}
+
+.fixedbtn {
+  width: 160px;
+  margin: 10px;
 }

@@ -30,8 +30,13 @@ var fadeTime = 200;
 
   window.App = {
     progressBar: null,
+
+    // reentrancy guards
     inProgress: false,
-    mode: null,
+    answerSelected: false,
+    nextQuestionTransition: false,
+
+    mode: null, // game mode
 
     clueIndex: 0,
     questions: [], // elements which will be the questions
@@ -43,15 +48,9 @@ var fadeTime = 200;
     multiplier: 1,
     streak: 0,
 
-    reset: function() {
-      $("#finalscorearea").fadeOut(fadeTime, function() {
-        $("#startbuttons").fadeIn(fadeTime);
-      });
-    },
-
-    startGame: function(mode) {
+    startGame: function(mode, force) {
       // check we're not already in progress
-      if (this.inProgress) {
+      if (this.inProgress && !force) {
         return;
       }
       this.inProgress = true;
@@ -75,7 +74,8 @@ var fadeTime = 200;
 
       // fade out start buttons, fade in score
       var self = this;
-      $("#startbuttons").fadeOut(fadeTime, function() {
+      $("#nextquestion").fadeOut(fadeTime, function() {
+        $("#nextquestion").empty();
         $("#question").fadeIn(fadeTime);
         $("#score").fadeIn(fadeTime);
         if (self.mode == 'survival') {
@@ -174,6 +174,11 @@ var fadeTime = 200;
     },
 
     selectAnswer: function(element) {
+      if (this.answerSelected) {
+        return;
+      }
+      this.answerSelected = true;
+
       // score
       var correct = (element == this.questions[this.currentQuestion]);
       var qscore = 0;
@@ -209,11 +214,9 @@ var fadeTime = 200;
       $("#elementbox4").fadeOut(fadeTime, function() {
         $("#clues").empty();
         $("#answers").empty();
+        self.answerSelected = false;
         self.showQuestionResult(correct, self.questions[self.currentQuestion - 1], qscore);
       });
-    },
-
-    tweetScore: function() {
     },
 
     showQuestionResult: function(correct, element, qscore) {
@@ -221,56 +224,72 @@ var fadeTime = 200;
         "Correct! " + qscore + " points!" :
         "Wrong! The correct answer was:";
 
-      $("#questionresultarea").append("<div id=\"questionresult\">"
-                                      + "<h3 style=\"line-height:80px;\">"
-                                      + resultStr
-                                      + "</h3></div>");
-      $("#questionresultarea").append("<div class=\"element-box centred\" id=\"answerbox\">"
-                                      + "<div class=\"number\"><span class=\"label\">"
-                                      + (element+1)
-                                      + "</span></div>"
-                                      + "<div class=\"symbol\"><span class=\"label\">"
-                                      + elements[element].symbol
-                                      + "</span></div>"
-                                      + "<div class=\"name\"><span class=\"label\">"
-                                      + elements[element].name
-                                      + "</span></div></div>");
+      $("#questionresult").append("<h3 style=\"line-height:80px;\">"
+                                  + resultStr
+                                  + "</h3>");
+      $("#answerbox").append("<div class=\"number\"><span class=\"label\">"
+                             + (element+1)
+                             + "</span></div>"
+                             + "<div class=\"symbol\"><span class=\"label\">"
+                             + elements[element].symbol
+                             + "</span></div>"
+                             + "<div class=\"name\"><span class=\"label\">"
+                             + elements[element].name
+                             + "</span></div>");
       if (this.gameIsOver()) {
         this.endGame();
-        $("#questionresultarea").append("<div id=\"nextquestion\">"
-                                        + "<a onclick=\"App.playAgain();\" "
-                                        + "class=\"btn btn-primary btn-large\">"
-                                        + "Play Again</a>"
-                                        + "<a id=\"tweetref\" href=\"https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F&amp;text=I%20scored%20"
-                                        + this.score
-                                        + "%20on%20Guess%20the%20Element%20"
-                                        + this.mode
-                                        + "%20mode%21&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F\" "
-                                        + "class=\"btn btn-primary btn-large novisit\">"
-                                        + "Tweet Your Score</a></div>");
+        $("#nextquestion").append("<a onclick=\"App.playAgain('20 questions');\" "
+                                  + "class=\"fixedbtn btn btn-primary btn-large\">"
+                                  + "20 Questions Mode</a>"
+                                  + "<a onclick=\"App.playAgain('survival');\" "
+                                  + "class=\"fixedbtn btn btn-primary btn-large\">"
+                                  + "Survival Mode</a>"
+                                  + "<p><a id=\"tweetref\" href=\"https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F&amp;text=I%20scored%20"
+                                  + this.score
+                                  + "%20on%20Guess%20the%20Element%20"
+                                  + this.mode
+                                  + "%20mode%21&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F\" "
+                                  + "class=\"fixedbtn btn btn-primary btn-large novisit\">"
+                                  + "Tweet Your Score</a></p>");
       }
       else {
-        $("#questionresultarea").append("<div id=\"nextquestion\">"
-                                        + "<a onclick=\"App.nextQuestion();\" "
-                                        + "class=\"btn btn-primary btn-large\">"
-                                        + "Next Question</a></div>");
+        $("#nextquestion").append("<a onclick=\"App.nextQuestion();\" "
+                                  + "class=\"btn btn-primary btn-large\">"
+                                  + "Next Question</a>");
       }
+      $("#nextquestion").fadeIn(fadeTime);
       $("#questionresultarea").fadeIn(fadeTime);
     },
 
     nextQuestion: function() {
+      if (this.nextQuestionTransition) {
+        return;
+      }
+      this.nextQuestionTransition = true;
+
       var self = this;
       $("#questionresultarea").fadeOut(fadeTime, function() {
-        $("#questionresultarea").empty();
+        $("#questionresult").empty();
+        $("#answerbox").empty();
+        $("#nextquestion").empty();
+        self.nextQuestionTransition = false;
         self.askQuestion();
       });
     },
 
-    playAgain: function() {
+    playAgain: function(mode) {
+      if (this.inProgress) {
+        return;
+      }
+      this.inProgress = true;
+
       var self = this;
+      $("#finalscorearea").fadeOut(fadeTime);
       $("#questionresultarea").fadeOut(fadeTime, function() {
-        $("#questionresultarea").empty();
-        self.reset();
+        $("#questionresult").empty();
+        $("#answerbox").empty();
+        $("#nextquestion").empty();
+        self.startGame(mode, true);
       });
     },
 
@@ -286,6 +305,7 @@ var fadeTime = 200;
     wrongAnswer: function() {
       this.lives--;
       this.streak = 0;
+      this.multiplier = 1;
       this.updateStats();
     },
 
