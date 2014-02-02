@@ -280,3 +280,13 @@ h2 {
   width: 160px;
   margin: 10px;
 }
+
+.cluetext {
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.cluediv {
+  height: 50px;
+  text-align: center;
+}

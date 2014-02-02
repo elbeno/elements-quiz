@@ -154,9 +154,9 @@ var fadeTime = 200;
         return this.selectAnswer(-1);
       }
       var selectorStr = "clue" + this.clueIndex;
-      $("#clues").append("<div id=\"" + selectorStr + "\" style=\"display:none;\"><h4>"
+      $("#clues").append("<div class=\"cluediv\" id=\"" + selectorStr + "\" style=\"display:none;\"><span class=\"cluetext\">"
                          + this.clues[this.clueIndex]
-                         + "</h4></div>");
+                         + "</span></div>");
       $("#" + selectorStr).fadeIn(fadeTime);
 
       if (this.clueIndex == 0) {
