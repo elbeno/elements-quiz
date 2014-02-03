@@ -102,7 +102,7 @@ var elements =
     "Daniel Rutherford, a scotsman, discovered me in 1772.",
     "I boil at about -196°C.",
     "Together with hydrogen, I make ammonia.",
-    "I am an important ingredient of plant fertilisers.",
+    "I am an important ingredient of plant fertilizers.",
     "I am used as a protective atmosphere around packaged food.",
     "I am a colourless, odourless, and tasteless gas.",
   ]},
@@ -113,7 +113,7 @@ var elements =
     "I am essential to almost all life on Earth.",
     "I am very reactive and form compounds with most elements.",
     "Fires can't burn without me.",
-    "Plants produce me when they photosynthesise.",
+    "Plants produce me when they photosynthesize.",
     "My name means \"acid-forming\" in Greek.",
     "A form of me in the upper atmosphere protects the Earth from UV radiation.",
     "As a liquid I'm used as rocket fuel.",
@@ -197,7 +197,7 @@ var elements =
     "I am sometimes called \"The Devil\'s Element\" because I was the 13th to be discovered.",
     "I am one of the elements that makes up your bones.",
     "My white form burns fiercely and is used as an incendiary.",
-    "I am used extensively in fertilisers.",
+    "I am used extensively in fertilizers.",
   ]},
 
   {name:"Sulfur", symbol:"S", clues:[
@@ -290,7 +290,7 @@ var elements =
     "As a component of blood, I carry oxygen around the body.",
     "The Bessemer process is used to make steel out of me.",
     "When combined with sulfur, I make fool's gold.",
-    "I can be magnetised.",
+    "I can be magnetized.",
     "I make up most of the Earth by mass.",
     "I am the heaviest element made by fusion in stars (without supernovae).",
     "Mars gets its red colour from my oxide.",
@@ -303,7 +303,7 @@ var elements =
     "I am a transition metal.",
     "I am famous for a particular rich blue pigment.",
     "German miners named me \"goblin\". because my ore didn't give them what they wanted.",
-    "I can be magnetised.",
+    "I can be magnetized.",
     "My ores include erythrite and glaucodot.",
     "I am used to make alloys for use in turbine blades.",
     "My alloys can be highly wear-resistant and are used for prosthetic parts.",
@@ -560,88 +560,163 @@ var elements =
 
   {name:"Xenon", symbol:"Xe", clues:[
     "I am a noble gas.",
+    "Trace amounts of me are present in the atmosphere.",
+    "I am used as a general anaesthetic.",
+    "I am used in flash lamps and arc lamps.",
+    "When inhaled, I lower your voice. But it's not a good idea to inhale me.",
+    "I am a heavy gas.",
   ]},
 
   {name:"Caesium", symbol:"Cs", clues:[
     "I am an alkali metal.",
+    "I am a pale silvery-gold colour.",
+    "My melting point is only 28°C.",
+    "I am extremely reactive.",
+    "My 133-isotope is used in atomic clocks.",
   ]},
 
   {name:"Barium", symbol:"Ba", clues:[
     "I am an alkaline earth metal.",
+    "I am a soft, silvery, reactive metal.",
+    "The state gem of California (Benitoite) contains me.",
+    "My sulfate is opaque to X-rays and is used for imaging the digestive system.",
+    "I can be used to remove unwanted gases from vacuum tubes.",
   ]},
 
   {name:"Lanthanum", symbol:"La", clues:[
     "I am a rare earth metal.",
+    "An elemental series is named after me.",
+    "I am a soft silvery-white metal.",
+    "My name is derived from the Greek \"to lie hidden\".",
+    "Although I am a \"rare earth metal\", I am not really rare at all.",
+    "My first application was in gas lantern mantles.",
   ]},
 
   {name:"Cerium", symbol:"Ce", clues:[
     "I am a rare earth metal.",
     "I am used in lighter flints.",
+    "I am the most common rare earth element.",
+    "I am named for the largest dwarf planet in the asteroid belt.",
+    "I am used as a catalyst for self-cleaning ovens.",
   ]},
 
   {name:"Praseodymium", symbol:"Pr", clues:[
     "I am a rare earth metal.",
+    "I am used to make strong magnets.",
+    "My compounds give glass and enamels a yellow-green colour.",
+    "My name means \"green twin\" in Greek.",
+    "I have been used as a dopant to slow light down through a medium.",
   ]},
 
   {name:"Neodymium", symbol:"Nd", clues:[
     "I am a rare earth metal.",
     "I make really strong magnets.",
+    "Most of the world's supply of me is mined in China.",
+    "My name is from the Greek for \"new twin\".",
+    "My compounds can be used to colour glass and enamels.",
+    "My magnetic alloys are used in microphones, loudspeakers and hard drives.",
   ]},
 
   {name:"Promethium", symbol:"Pm", clues:[
     "I am a rare earth metal.",
     "I am the second lightest element with no stable isotopes.",
+    "I am sometimes used in luminous paint.",
+    "I am used in atomic batteries where my beta-decay makes a current.",
   ]},
 
   {name:"Samarium", symbol:"Sm", clues:[
     "I am a rare earth metal.",
+    "I am alloyed with cobalt to make magnets which are stable at high temperature.",
+    "Together with neodymium, I am used in radiometric dating.",
+    "I am used in Quadramet, an anti-cancer drug.",
+    "I am used in control rods to absorb neutrons in nuclear reactors.",
   ]},
 
   {name:"Europium", symbol:"Eu", clues:[
     "I am a rare earth metal.",
+    "I am the most reactive rare earth element.",
+    "My oxide is used as a red phosphor in CRTs and LEDs.",
+    "I can absorb more neutrons per atom than any other element.",
   ]},
 
   {name:"Gadolinium", symbol:"Gd", clues:[
     "I am a rare earth metal.",
+    "Like other rare earths, I am a good absorber of neutrons.",
+    "I'm silvery-white, malleable and ductile.",
+    "I'm used as an emergency shutdown measure for some nuclear reactors.",
+    "My compounds are used in green phosphors for CRTs.",
   ]},
 
   {name:"Terbium", symbol:"Tb", clues:[
     "I am a rare earth metal.",
     "I am named after the Swedish village where I was discovered.",
+    "I am mostly used in green CRT phosphors.",
+    "I am used in trichromatic lighting.",
+    "My 159-isotope is the only stable one I have.",
   ]},
 
   {name:"Dysprosium", symbol:"Dy", clues:[
     "I am a rare earth metal.",
+    "I am a soft, bright, silvery metal.",
+    "I am named from a Greek word meaning \"difficult to get at\".",
+    "I am used in radiation dosimeters.",
+    "I can be used in hybrid electric vehicles, but there is a shortage of me.",
   ]},
 
   {name:"Holmium", symbol:"Ho", clues:[
     "I am a rare earth metal.",
+    "I am named for the capital of Sweden.",
+    "I have the highest magnetic moment of any naturally-occurring element.",
+    "My oxide is yellow, but fluoresces bright orange-red under trichromatic light.",
+    "I can colour glass yellow or red.",
   ]},
 
   {name:"Erbium", symbol:"Er", clues:[
     "I am a rare earth metal.",
     "I am named after the Swedish village where I was discovered.",
+    "Adding my oxide to glass makes it pink.",
+    "I am used in fibre optics to amplify the signal.",
   ]},
 
   {name:"Thulium", symbol:"Tm", clues:[
     "I am a rare earth metal.",
+    "I am the rarest lanthanide (except for Promethium which has no stable isotopes).",
+    "I am used as a radiation source in portable X-ray machines.",
+    "I fluoresce blue under UV light, so I am used in Euro banknotes.",
   ]},
 
   {name:"Ytterbium", symbol:"Yb", clues:[
     "I am a rare earth metal.",
     "I am named after the Swedish village where I was discovered.",
+    "I hold the atomic clock accuracy record: a second in 31 billion years.",
+    "I am used in stress gauges because my resistivity increases under stress.",
   ]},
 
   {name:"Lutetium", symbol:"Lu", clues:[
     "I am a rare earth metal.",
+    "I am the last element in the lanthanide series.",
+    "I am named for the Latin name of Paris.",
+    "Until the 1950s, some scientists called me Cassiopium.",
+    "I am very difficult to separate: only about 10 tonnes of me are produced each year.",
+    "I am used as a catalyst in oil refineries.",
+    "Along with Hafnium, I am used in radiometric dating of meteorites.",
   ]},
 
   {name:"Hafnium", symbol:"Hf", clues:[
     "I am a transition metal.",
+    "I am a lustrous grey metal similar to Zirconium.",
+    "Controversy erupted over the possibility of a gamma-ray bomb made from one of my isomers.",
+    "I am used in alloys, notably for making rocket nozzles.",
+    "My powder can ignite spontaneously in air.",
   ]},
 
   {name:"Tantalum", symbol:"Ta", clues:[
     "I am a transition metal.",
+    "My name comes from a Greek mythological character.",
+    "I was discovered in 1802 by Anders Ekeberg.",
+    "I am known for my resistance to acid corrosion.",
+    "I am mostly mined in Australia.",
+    "I am used to produce electrolytic capacitors.",
   ]},
 
   {name:"Tungsten", symbol:"W", clues:[
@@ -652,17 +727,26 @@ var elements =
     "I am a hard, dense metal.",
     "One of my ores is called scheelite.",
     "I am used in incandescent light bulb filaments.",
+    "I am the heaviest known element to be used by a living organism.",
+    "I am used as ballast in race cars.",
+    "I am used in darts and fishing lures.",
   ]},
 
   {name:"Rhenium", symbol:"Re", clues:[
     "I am a transition metal.",
+    "In 1925, I was the last stable element to be discovered.",
+    "I am very rare.",
+    "I am mainly used in alloys and as a catalyst.",
+    "My radioactive isotopes can be used to treat liver or pancreatic cancer.",
   ]},
 
   {name:"Osmium", symbol:"Os", clues:[
     "I am a transition metal.",
     "I am a noble metal.",
-    "I am the densest element.",
     "I am one of the rarest elements on Earth",
+    "I am the densest naturally-occurring element.",
+    "My oxide has been used to detect fingerprints.",
+    "My alloys are very hard and are used in fountain pen nibs.",
   ]},
 
   {name:"Iridium", symbol:"Ir", clues:[
@@ -671,158 +755,298 @@ var elements =
     "I am the second densest element.",
     "I am one of the rarest elements on Earth",
     "I am present in rock at the KT-boundary, attributed to an asteroid impact.",
+    "My alloys are very hard and are used in fountain pen nibs.",
+    "I am the most corrosion-resistant metal.",
+    "I am part of the International prototype kilogram.",
   ]},
 
   {name:"Platinum", symbol:"Pt", clues:[
     "I am a transition metal.",
     "I am a noble metal.",
+    "Most of the International prototype kilogram is me.",
+    "My name means \"little silver\".",
+    "Most commonly I am used as a catalyst.",
+    "The Crown of Queen Elizabeth was made from me.",
   ]},
 
   {name:"Gold", symbol:"Au", clues:[
     "I am a transition metal.",
-    "I am a noble metal.",
+    "I am the noblest of the noble metals.",
+    "I have been prized since ancient times.",
+    "I am the most malleable of all metals.",
+    "I have been used for centuries as currency.",
+    "Ernest Rutherford shot alpha particles through me and deduced the structure of the atom.",
+    "I am resistant to acids, but can be dissolved by aqua regia.",
+    "I am used extensively in jewellery.",
+    "I am used as a protective coating on astronauts' helmets.",
+    "In 1848 I was found at Sutter's Mill, starting a rush to California.",
+    "The US keeps a repository of me at Fort Knox in Kentucky.",
+    "Wedding rings are made of me.",
   ]},
 
   {name:"Mercury", symbol:"Hg", clues:[
     "I am a transition metal.",
+    "I am one of only two room-temperature liquids in the periodic table.",
+    "I used to be used in thermometers.",
+    "My old name is quicksilver.",
+    "My ore is called cinnabar.",
+    "I am used in dentistry for fillings.",
+    "I am highly toxic - I used to drive hatters mad.",
+    "People are concerned about the way I build up in predatory fish.",
+    "I am used in CFLs and other fluorescent lights.",
+    "I am used in tilt switches.",
   ]},
 
   {name:"Thallium", symbol:"Tl", clues:[
     "I am a so-called 'poor' metal.",
+    "I am very toxic - the so-called \"poisoner's poison\".",
+    "I am a malleable grey metal that can be cut with a knife.",
+    "My emission lines are bright green.",
+    "My name means \"a green shoot\" in Greek.",
+    "Prussian blue is administered as an antidote to me.",
+    "Once I was widely used in rat poison.",
   ]},
 
   {name:"Lead", symbol:"Pb", clues:[
     "I am a so-called 'poor' metal.",
+    "I am the heaviest non-radioactive element.",
+    "I am poisonous - a neurotoxin that accumulates in the body.",
+    "My melting point is fairly low, making casting me easy.",
+    "I am used in car batteries.",
+    "I am commonly used in construction for roofing and cladding.",
+    "I used to be used in paint pigments, but less so these days.",
+    "I am used in glassmaking and ceramic glazes.",
   ]},
 
   {name:"Bismuth", symbol:"Bi", clues:[
     "I am a so-called 'poor' metal.",
+    "For a metal, I conduct heat very poorly.",
+    "I am present in a well-known drug for treating stomach upset.",
+    "I am alloyed with iron to make sprinkler systems.",
   ]},
 
   {name:"Polonium", symbol:"Po", clues:[
     "I am a metalloid.",
+    "I was discovered by Pierre and Marie Curie in 1898.",
+    "I am extremely toxic and was used to poison Alexander Litvinenko in 2006.",
+    "I am present in tobacco smoke.",
+    "I was a key ingredient of the detonator in the Fat Man plutonium bomb.",
   ]},
 
   {name:"Astatine", symbol:"At", clues:[
     "I am one of the halogens.",
+    "I am vanishingly rare - less than a gram of me exists in the Earth's crust.",
+    "All my isotopes have half-lives less than 12 hours.",
+    "I exist only as short-lived products in the middle of a decay chain.",
+    "I do have a use in radiotherapy, but I need to be used quickly.",
   ]},
 
   {name:"Radon", symbol:"Rn", clues:[
     "I am a noble gas.",
+    "Areas with granite geology are known to harbour me, and I can build up in houses.",
+    "I am a dense and radioactive gas.",
+    "I am found in some mineral waters and hot springs.",
   ]},
 
   {name:"Francium", symbol:"Fr", clues:[
     "I am an alkali metal.",
+    "I am vanishingly rare - there may be at most 30g of me in the Earth's crust.",
+    "I am highly radioactive.",
+    "My most stable isotope has a half-life of under 22 minutes.",
   ]},
 
   {name:"Radium", symbol:"Ra", clues:[
     "I am an alkaline earth metal.",
+    "I was discovered by Pierre and Marie Curie in 1898.",
+    "I am the heaviest alkaline earth metal.",
+    "I used to be used in luminous paints and watch dials.",
+    "Ernest Rutherford used me as an alpha source to probe the atomic structure of gold.",
   ]},
 
   {name:"Actinium", symbol:"Ac", clues:[
     "I am an actinide.",
+    "I am a soft, silvery-white, radioactive metal.",
+    "I am used in radiation therapy targeting cancer cells.",
+    "Because I am rare, expensive and radioactive, I have no real industrial uses.",
   ]},
 
   {name:"Thorium", symbol:"Th", clues:[
     "I am an actinide.",
+    "I'm named for the Norse god of thunder.",
+    "I was once used in gas mantles.",
+    "My oxide is used in heat-resistant ceramics.",
   ]},
 
   {name:"Protactinium", symbol:"Pa", clues:[
     "I am an actinide.",
+    "I am one of the super-rare elements, so I am really expensive.",
+    "I am radioactive and very toxic.",
+    "I am sometimes used in radiometric dating of sediments.",
+    "The UK Atomic Energy Authority produced a quantity of me in 1961.",
   ]},
 
   {name:"Uranium", symbol:"U", clues:[
     "I am an actinide.",
+    "I am used for nuclear reactor fuel.",
+    "I am used as fissile material in nuclear weapons.",
+    "The \"Little Boy\" Hiroshima bomb used me.",
+    "My oxide used to be used in red ceramic glazes, notably Fiestaware.",
+    "One of my ores is known as Pitchblende.",
+    "I am used in \"depleted\" form in ammunition.",
+    "I am the heaviest element found in nature before being synthesized in the lab.",
+    "I am named for a planet.",
   ]},
 
   {name:"Neptunium", symbol:"Np", clues:[
     "I am an actinide.",
+    "I am the first transuranic element.",
+    "I am a decay product of Americium-241, so I might be in your smoke detector.",
+    "I am named for a planet.",
   ]},
 
   {name:"Plutonium", symbol:"Pu", clues:[
     "I am an actinide.",
+    "I am used as fissile material in nuclear weapons.",
+    "I am named for a dwarf planet.",
+    "I am the heaviest primordial element (formed before the Earth).",
+    "The \"Fat Man\" bomb dropped on Nagasaki used me.",
+    "The world's first nuclear explosion used me.",
+    "I am highly toxic and radioactive metal.",
   ]},
 
   {name:"Americium", symbol:"Am", clues:[
     "I am an actinide.",
+    "There is likely a minute quantity of me in your house, in your smoke detectors.",
+    "I was first produced in 1944 at UC Berkeley.",
+    "I am a soft silvery radioactive metal.",
+    "I am the only synthetic element present in most households.",
   ]},
 
   {name:"Curium", symbol:"Cm", clues:[
     "I am an actinide.",
+    "I am named after the husband-and-wife researchers of radioactivity.",
+    "I am used as an alpha source for X-ray spectrometry in various rovers sent to Mars.",
+    "I am present in nuclear fallout from weapons tests",
+    "I am present in spent nuclear fuel.",
   ]},
 
   {name:"Berkelium", symbol:"Bk", clues:[
     "I am an actinide.",
+    "I was discovered in December 1949 at the UC Radiation Laboratory.",
+    "I was named for the city and university where I was discovered.",
+    "I am a soft, silvery-white, radioactive metal.",
+    "I have no real uses outside of scientific research.",
   ]},
 
   {name:"Californium", symbol:"Cf", clues:[
     "I am an actinide.",
+    "I am the heaviest element to occur naturally on Earth.",
+    "I am used to start nuclear reactors.",
+    "I am a strong emitter of neutrons.",
+    "I am used in some radiotherapy applications.",
+    "I am used as a neutron source in various detection instruments.",
   ]},
 
   {name:"Einsteinium", symbol:"Es", clues:[
     "I am an actinide.",
+    "I am a soft silvery metal.",
+    "I am the heaviest element that has had enough of it produced to see.",
+    "I was dicovered in the debris of the first hydrogen bomb explosion.",
+    "I am named after probably the most famous scientist in the world.",
+    "Because I have a short half-life, there are no applications for me outside research.",
+    "I am a synthetic element.",
   ]},
 
   {name:"Fermium", symbol:"Fm", clues:[
     "I am an actinide.",
+    "I am the heaviest element formed by neutron bombardment of lighter ones.",
+    "I was dicovered in the debris of the first hydrogen bomb explosion.",
+    "I am named after an Italian pioneer of nuclear physics.",
+    "Because I have a short half-life, there are no applications for me outside research.",
+    "I am a synthetic element.",
   ]},
 
   {name:"Mendelevium", symbol:"Md", clues:[
     "I am an actinide.",
+    "I am named after the creator of the periodic table.",
+    "My discovery was based on just 17 atoms.",
+    "I was first made in 1955 at UC Berkeley.",
+    "I am a synthetic element.",
   ]},
 
   {name:"Nobelium", symbol:"No", clues:[
     "I am an actinide.",
+    "I am a synthetic element.",
+    "My discovery was first announced by physicists working in Sweden in 1957.",
+    "Scientists working in Dubna are credited with my discovery, in 1966.",
   ]},
 
   {name:"Lawrencium", symbol:"Lr", clues:[
     "I am an actinide.",
+    "I am a synthetic element.",
+    "My most stable isotope has a half-life of about 3.6 hours.",
+    "I am named after the lab where I was first synthesized.",
   ]},
 
   {name:"Rutherfordium", symbol:"Rf", clues:[
     "I am a transactinide.",
     "I am a transition metal.",
+    "I am a synthetic element.",
+    "I am named after an early nuclear physicist from New Zealand.",
+    "My most stable isotope has a half-life of about 1.3 hours.",
   ]},
 
   {name:"Dubnium", symbol:"Db", clues:[
     "I am a transactinide.",
     "I am a transition metal.",
+    "I was first produced at the Flerov Laboratory of Nuclear Reactions.",
+    "I am a synthetic element.",
+    "I am named after the town where I was first made.",
+    "My name was disputed by Soviet and US scientists.",
   ]},
 
   {name:"Seaborgium", symbol:"Sg", clues:[
     "I am a transactinide.",
     "I am a transition metal.",
+    "I am a synthetic element.",
+    "My name generated controversy because I am named after a living scientist.",
+    "My most stable isotope has a half-life of about 2 minutes.",
   ]},
 
   {name:"Bohrium", symbol:"Bh", clues:[
     "I am a transactinide.",
     "I am a transition metal.",
+    "I am a synthetic element.",
+    "My most stable isotope has a half-life of about 61 seconds.",
+    "I am named after a famous Danish nuclear physicist.",
   ]},
 
   {name:"Hassium", symbol:"Hs", clues:[
     "I am a transactinide.",
     "I am a transition metal.",
+    "I am a synthetic element.",
+    "My most stable isotope has a half-life of about 10 seconds.",
+    "A german team is officially credited with my discovery.",
   ]},
 
   {name:"Meitnerium", symbol:"Mt", clues:[
     "I am a transactinide.",
     "I am a synthetic element.",
-    "I am very radioactive.",
+    "I am named after a discoverer of nuclear fission.",
+    "I was first created in 1982 at the GSI Helmholtz Centre for Heavy Ion Research.",
   ]},
 
   {name:"Darmstadtium", symbol:"Ds", clues:[
     "I am a transactinide.",
-    "I am a synthetic element.",
-    "I am very radioactive.",
-    "I was created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research.",
+    "I was first created in 1994 at the GSI Helmholtz Centre for Heavy Ion Research.",
     "I am named for the city where I was created.",
+    "I am a synthetic element.",
   ]},
 
   {name:"Roentgenium", symbol:"Rg", clues:[
     "I am a transactinide.",
     "I am a synthetic element.",
-    "I am very radioactive.",
-    "I was created in 1994 by the GSI Helmholtz Centre for Heavy Ion Research.",
+    "I was first created in 1994 at the GSI Helmholtz Centre for Heavy Ion Research.",
     "I am named for the discoverer of X-rays.",
   ]},
 
@@ -831,29 +1055,47 @@ var elements =
     "I am a transition metal.",
     "My most stable isotope has a half-life of about 29 seconds.",
     "I am a transactinide.",
+    "I am a synthetic element.",
+    "I am named for a 15th century astronomer.",
   ]},
 
   {name:"Ununtrium", symbol:"Uut", clues:[
     "I am a transactinide.",
+    "I am a synthetic element.",
+    "I have a formulaic placeholder name.",
+    "My most stable isotope has a half-life of 20 seconds.",
+    "I am the lightest element that doesn't yet have an official name.",
   ]},
 
   {name:"Flerovium", symbol:"Fl", clues:[
     "I am a transactinide.",
     "I got my name in May 2012.",
+    "I am a synthetic element.",
+    "About 80 atoms of me have been observed so far.",
+    "I am predicted to be near the theorized island of stability.",
+    "I am named after a research centre in Dubna, Russia.",
   ]},
 
   {name:"Ununpentium", symbol:"Uup", clues:[
     "I am a transactinide.",
+    "I am a synthetic element.",
+    "I have a formulaic placeholder name.",
+    "About 50 atoms of me have been observed so far.",
   ]},
 
   {name:"Livermorium", symbol:"Lv", clues:[
     "I am a transactinide.",
     "I got my name in May 2012.",
     "Scientists have only produced a few dozen atoms of me.",
+    "I am a synthetic element.",
+    "I am the heaviest element that has been given a real name.",
   ]},
 
   {name:"Ununseptium", symbol:"Uus", clues:[
     "I am a transactinide.",
+    "I am a synthetic element.",
+    "I have a formulaic placeholder name.",
+    "My discovery was first announced in 2010.",
   ]},
 
   {name:"Ununoctium", symbol:"Uuo", clues:[
@@ -861,6 +1103,8 @@ var elements =
     "I am the heaviest element yet known.",
     "Scientists have only produced a few atoms of me.",
     "Not much is known about my properties.",
+    "I am a synthetic element.",
+    "I have a formulaic placeholder name.",
   ]},
 
 ];
