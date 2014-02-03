@@ -119,7 +119,13 @@ var fadeTime = 200;
 
       // generate clues
       this.clues = elements[this.questions[this.currentQuestion]].clues;
-      shuffle(this.clues);
+      do {
+        shuffle(this.clues);
+      // this is a family quiz, we don't want Fluorine Uranium Carbon Potassium!
+      } while (this.clues[0] == 8
+             && this.clues[1] == 91
+             && this.clues[2] == 5
+             && this.clues[3] == 18);
 
       // update the shown question number
       $("#question").empty();
@@ -154,10 +160,15 @@ var fadeTime = 200;
         return this.selectAnswer(-1);
       }
       var selectorStr = "clue" + this.clueIndex;
-      $("#clues").append("<div class=\"cluediv\" id=\"" + selectorStr + "\" style=\"display:none;\"><span class=\"cluetext\">"
+      $("#clues").append("<div class=\"cluediv\" id=\"" + selectorStr + "\" style=\"display:none;\"><span class=\"cluetext\" id=\"" + selectorStr + "span\">"
                          + this.clues[this.clueIndex]
                          + "</span></div>");
       $("#" + selectorStr).fadeIn(fadeTime);
+
+      // change line height on line wrap
+      if ($("#" + selectorStr + "span").outerHeight() > 50) {
+        $("#" + selectorStr + "span").css("line-height", "25px");
+      }
 
       if (this.clueIndex == 0) {
         this.progressBar.removeClass("transition")
