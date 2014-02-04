@@ -163,7 +163,7 @@ var elements =
   ]},
 
   {name:"Aluminium", symbol:"Al", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I am the most common metal in the Earth's crust.",
     "My ore is called bauxite.",
     "I am a strong, light, and corrosion-resistant metal.",
@@ -354,7 +354,7 @@ var elements =
   ]},
 
   {name:"Gallium", symbol:"Ga", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I have a low melting point - I'll melt in your hand.",
     "A good prank is to make spoons from me, which melt in hot tea.",
     "I am used to make electronics like blue and violet LEDs.",
@@ -514,14 +514,14 @@ var elements =
   ]},
 
   {name:"Indium", symbol:"In", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I was discovered in 1863 and named for the dark blue line in my spectrum.",
     "I am used to make transparent electrodes in LCDs and touch screens.",
     "I am a bright silvery-white metal that you can cut with a knife.",
   ]},
 
   {name:"Tin", symbol:"Sn", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I have been known since the Bronze Age.",
     "I am the element with the largest number of stable isotopes (10).",
     "I am alloyed with lead to make solder.",
@@ -796,7 +796,7 @@ var elements =
   ]},
 
   {name:"Thallium", symbol:"Tl", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I am very toxic - the so-called \"poisoner's poison\".",
     "I am a malleable grey metal that can be cut with a knife.",
     "My emission lines are bright green.",
@@ -806,7 +806,7 @@ var elements =
   ]},
 
   {name:"Lead", symbol:"Pb", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "I am the heaviest non-radioactive element.",
     "I am poisonous - a neurotoxin that accumulates in the body.",
     "My melting point is fairly low, making casting me easy.",
@@ -817,7 +817,7 @@ var elements =
   ]},
 
   {name:"Bismuth", symbol:"Bi", clues:[
-    "I am a so-called 'poor' metal.",
+    "I am a so-called \"poor\" metal.",
     "For a metal, I conduct heat very poorly.",
     "I am present in a well-known drug for treating stomach upset.",
     "I am alloyed with iron to make sprinkler systems.",
