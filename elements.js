@@ -6,7 +6,7 @@ var elements =
     "I power nuclear fusion in the sun.",
     "I am found in every acid.",
     "When water is electrolysed, bubbles of me form at the cathode.",
-    "I used to be used in airships until some explosive disasters occurred.",
+    "I used to be used in airships, until some explosive disasters occurred.",
     "I can be found in a huge number of organic compounds.",
     "I am a gas at room temperature.",
     "My heavier isotopes are used in nuclear fusion reactions.",
@@ -14,7 +14,7 @@ var elements =
     "I am the lightest element.",
     "I am the most abundant element in the universe.",
     "I react explosively with oxygen to make water.",
-    "Henry Cavendish discovered me in 1766."
+    "Henry Cavendish discovered me in 1766.",
   ]},
 
   {name:"Helium", symbol:"He", clues:[
@@ -29,7 +29,7 @@ var elements =
     "When scientists cool me down really far I turn into a superfluid.",
     "I am used in airships.",
     "I am used in many cooling applications.",
-    "The US has a reserve of me near Amarillo, TX."
+    "The US has a reserve of me near Amarillo, TX.",
   ]},
 
   {name:"Lithium", symbol:"Li", clues:[
@@ -44,7 +44,7 @@ var elements =
     "I am commonly used in rechargable batteries to power electronics.",
     "I produce red sparks when I am used in fireworks.",
     "I react with water, producing hydrogen and a strong alkali.",
-    "I was formed in the Big Bang."
+    "I was formed in the Big Bang.",
   ]},
 
   {name:"Beryllium", symbol:"Be", clues:[
@@ -53,13 +53,12 @@ var elements =
     "I am a steely-coloured, brittle metal.",
     "My dust is toxic to humans.",
     "I am used in particle physics because X-rays pass through me easily.",
-    "I melt at 1287°C.",
     "I'm made in stars, but I don't last long in there.",
     "I am in several gemstones - emerald is one.",
     "I dissolve in hydrochloric acid, but not in nitric acid.",
     "Minerals containing me were known to the ancient Egyptians.",
     "I was first isolated by two men independently in 1828.",
-    "My strength and light weight give me uses in aerospace."
+    "My strength and light weight give me uses in aerospace.",
   ]},
 
   {name:"Boron", symbol:"B", clues:[
@@ -74,7 +73,7 @@ var elements =
     "I was first isolated by Sir Humphry Davy, in 1808.",
     "My crystals are very hard and black, with a melting point of over 2000°C.",
     "I am used to dope semiconductors.",
-    "An acid containing me can be used to kill ants, fleas and cockroaches."
+    "An acid containing me can be used to kill ants, fleas and cockroaches.",
   ]},
 
   {name:"Carbon", symbol:"C", clues:[
@@ -88,7 +87,6 @@ var elements =
     "I can alloy with iron to make steel.",
     "Special arrangements of my atoms can form nanotubes or \"buckyballs\".",
     "I'm used in filters to get rid of impurities in water.",
-    "When you cc: an email, I'm the first c.",
     "I am continually exchanged between animals, plants, and the environment - that's my cycle.",
   ]},
 
@@ -144,7 +142,7 @@ var elements =
     "I am an alkali metal.",
     "I react explosively with water.",
     "I am important in the body - I help your nerves work.",
-    "I am a soft, silver-white, very reactive metal",
+    "I am a soft, silver-white, very reactive metal.",
     "I was first isolated by Humphry Davy in 1807.",
     "I am used in street lamps where I produce an intense yellow light.",
     "I am one of the elements in table salt.",
@@ -184,7 +182,7 @@ var elements =
     "Extremely pure wafers of me are used for semiconductors.",
     "A valley south of the San Fransisco bay is named for me.",
     "Polymers containing me are rubbery and heat-resistant.",
-    "I am used (in a compound with Oxygen) as a drying agent.",
+    "I am used (in a compound with oxygen) as a drying agent.",
   ]},
 
   {name:"Phosphorus", symbol:"P", clues:[
@@ -403,7 +401,7 @@ var elements =
   {name:"Krypton", symbol:"Kr", clues:[
     "I am a noble gas.",
     "I am one of the daughter products of uranium fission.",
-    "I am be used in bulbs to make a brilliant white light.",
+    "I am used in bulbs to make a brilliant white light.",
     "I play an important role in many high-powered gas lasers.",
   ]},
 
@@ -743,7 +741,7 @@ var elements =
   {name:"Osmium", symbol:"Os", clues:[
     "I am a transition metal.",
     "I am a noble metal.",
-    "I am one of the rarest elements on Earth",
+    "I am one of the rarest elements on Earth.",
     "I am the densest naturally-occurring element.",
     "My oxide has been used to detect fingerprints.",
     "My alloys are very hard and are used in fountain pen nibs.",
@@ -753,7 +751,7 @@ var elements =
     "I am a transition metal.",
     "I am a noble metal.",
     "I am the second densest element.",
-    "I am one of the rarest elements on Earth",
+    "I am one of the rarest elements on Earth.",
     "I am present in rock at the KT-boundary, attributed to an asteroid impact.",
     "My alloys are very hard and are used in fountain pen nibs.",
     "I am the most corrosion-resistant metal.",
@@ -926,7 +924,7 @@ var elements =
     "I am an actinide.",
     "I am named after the husband-and-wife researchers of radioactivity.",
     "I am used as an alpha source for X-ray spectrometry in various rovers sent to Mars.",
-    "I am present in nuclear fallout from weapons tests",
+    "I am present in nuclear fallout from weapons tests.",
     "I am present in spent nuclear fuel.",
   ]},
 
