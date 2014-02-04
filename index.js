@@ -76,14 +76,6 @@ var fadeTime = 200;
       var self = this;
       $("#nextquestion").fadeOut(fadeTime, function() {
         $("#nextquestion").empty();
-        $("#question").fadeIn(fadeTime);
-        $("#score").fadeIn(fadeTime);
-        if (self.mode == 'survival') {
-          $("#lives").fadeIn(fadeTime);
-        }
-        else {
-          $("#streak").fadeIn(fadeTime);
-        }
       });
 
       // set stats
@@ -92,6 +84,11 @@ var fadeTime = 200;
       this.lives = 3;
       this.multiplier = 1;
       this.updateStats();
+
+      // make the score be central
+      $("#score").css("margin", "");
+      $("#score").css("float", "left");
+      $("#score").css("min-width", "0");
 
       // ask the first question
       this.progressBar = $("#progress_bar");
@@ -134,7 +131,7 @@ var fadeTime = 200;
       // show the possible answers
       $("#answers").fadeIn(fadeTime);
       for (var i = 0; i < 4; ++i) {
-        $("#answers").append("<div id=\"elementbox" + (i+1) + "\" class=\"element-box left hover-box\" "
+        $("#answers").append("<div id=\"elementbox" + (i+1) + "\" class=\"element-box hover-box\" "
                              + " onclick=\"App.selectAnswer("
                              + answers[i] + ");\">"
                              + "<div class=\"number\"><span class=\"label\">"
@@ -255,7 +252,11 @@ var fadeTime = 200;
                                   + "<a onclick=\"App.playAgain('survival');\" "
                                   + "class=\"fixedbtn btn btn-primary btn-large\">"
                                   + "Survival Mode</a>"
-                                  + "<p><a id=\"tweetref\" href=\"https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F&amp;text=I%20scored%20"
+                                  + "<p><a id=\"tweetref\" href=\"https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.elbeno.com%2Fguesstheelement%2F&amp;text="
+                                  + (this.mode == 'survival' ?
+                                     "I%20survived%20for%20" + this.currentQuestion
+                                     + "%20questions%20and%20scored%20" :
+                                     "I%20scored%20")
                                   + this.score
                                   + "%20on%20Guess%20the%20Element%20"
                                   + this.mode
@@ -295,7 +296,6 @@ var fadeTime = 200;
       this.inProgress = true;
 
       var self = this;
-      $("#finalscorearea").fadeOut(fadeTime);
       $("#questionresultarea").fadeOut(fadeTime, function() {
         $("#questionresult").empty();
         $("#answerbox").empty();
@@ -332,10 +332,13 @@ var fadeTime = 200;
     updateStats: function() {
       $("#score").empty();
       $("#score").append("<h2>Score: " + this.score + "</h2>");
-      $("#streak").empty();
-      $("#streak").append("<h2>Streak: " + this.streak + "</h2>");
-      $("#lives").empty();
-      $("#lives").append("<h2>Lives: " + this.lives + "</h2>");
+      $("#modestat").empty();
+      if (this.mode == 'survival') {
+        $("#modestat").append("<h2>Lives: " + this.lives + "</h2>");
+      }
+      else {
+        $("#modestat").append("<h2>Streak: " + this.streak + "</h2>");
+      }
     },
 
     gameIsOver: function() {
@@ -344,21 +347,18 @@ var fadeTime = 200;
     },
 
     endGame: function() {
-      $("#finalscore").empty();
-      $("#finalscore").append("<h2>Final Score: "
-                              + this.score + "</h2>");
+      $("#score").empty();
+      $("#score").append("<h2 style=\"line-height: 80px;\">Final Score: "
+                         + this.score + "</h2>");
+
+      // make the final score be central
+      $("#score").css("margin", "0 auto");
+      $("#score").css("float", "none");
+      $("#score").css("min-width", "400px");
 
       this.inProgress = false;
-      if (this.mode == 'survival') {
-        $("#lives").fadeOut(fadeTime);
-      }
-      else {
-        $("#streak").fadeOut(fadeTime);
-      }
-      $("#question").fadeOut(fadeTime);
-      $("#score").fadeOut(fadeTime, function() {
-        $("#finalscorearea").fadeIn(fadeTime);
-      });
+      $("#question").empty();
+      $("#modestat").empty();
     },
   };
 

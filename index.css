@@ -1,8 +1,7 @@
 #container {
   min-width: 800px;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   background: #e0e0e0;
   padding: 10px;
 }
@@ -24,16 +23,14 @@
 #clues {
   height:210px;
   width:80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 10px;
 }
 
 #answers {
   height:136px;
   width:544px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #clue0 {
@@ -86,45 +83,22 @@ header p {
   margin-right: 10px;
 }
 
-#spacer {
-  height: 50%;
-  margin-bottom:-20px;
-}
-
-#startbuttons {
-  height: 40px;
-  text-align: center;
-}
-
-#finalscorearea {
-  display: none;
-  height: 40px;
-}
-
-#stats {
-  width: 510px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h2 {
-  margin: 0px;
+  line-height: 60px;
 }
 
-#score, #lives, #streak, #question {
-  height: 40px;
-  display: none;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#score, #lives, #streak {
-  width: 200px;
+#score {
+  width: 40%;
 }
 
 #question {
-  width: 50px;
+  float: left;
+  width: 30%;
+}
+
+#modestat {
+  float: right;
+  width: 30%;
 }
 
 .element-box {
@@ -147,19 +121,15 @@ h2 {
 }
 
 .hover-box {
+  float: left;
 }
 
 .hover-box:hover {
   background: #a68500;
 }
 
-.left {
-  float: left;
-}
-
 .centred {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .element-box .symbol {
