@@ -507,8 +507,8 @@ var elements =
     "I am a soft, bluish-white, toxic metal.",
     "I am the cause of Itai-Itai (\"ouch-ouch\" in Japanese) disease.",
     "The Japanese military used missiles tipped with me to try to kill Gojira.",
-    "I am used with Tellurium in solar panels.",
-    "I used to be used with Nickel in some rechargable batteries.",
+    "I am used with tellurium in solar panels.",
+    "I used to be used with nickel in some rechargable batteries.",
     "My name derives from that of the founder of Thebes.",
     "I am in some brilliant red, orange and yellow pigments.",
   ]},
@@ -544,7 +544,7 @@ var elements =
     "I am named after the Roman god of the earth.",
     "A tiny amount of me makes your breath stink like garlic.",
     "I am mostly used to make alloys with iron, copper and lead.",
-    "I am used with Cadmium in solar panels.",
+    "I am used with cadmium in solar panels.",
   ]},
 
   {name:"Iodine", symbol:"I", clues:[
@@ -697,7 +697,7 @@ var elements =
     "Until the 1950s, some scientists called me Cassiopium.",
     "I am very difficult to separate: only about 10 tonnes of me are produced each year.",
     "I am used as a catalyst in oil refineries.",
-    "Along with Hafnium, I am used in radiometric dating of meteorites.",
+    "Along with hafnium, I am used in radiometric dating of meteorites.",
   ]},
 
   {name:"Hafnium", symbol:"Hf", clues:[
@@ -755,13 +755,13 @@ var elements =
     "I am present in rock at the KT-boundary, attributed to an asteroid impact.",
     "My alloys are very hard and are used in fountain pen nibs.",
     "I am the most corrosion-resistant metal.",
-    "I am part of the International prototype kilogram.",
+    "I am part of the international prototype kilogram.",
   ]},
 
   {name:"Platinum", symbol:"Pt", clues:[
     "I am a transition metal.",
     "I am a noble metal.",
-    "Most of the International prototype kilogram is me.",
+    "Most of the international prototype kilogram is me.",
     "My name means \"little silver\".",
     "Most commonly I am used as a catalyst.",
     "The Crown of Queen Elizabeth was made from me.",
@@ -828,7 +828,7 @@ var elements =
     "I was discovered by Pierre and Marie Curie in 1898.",
     "I am extremely toxic and was used to poison Alexander Litvinenko in 2006.",
     "I am present in tobacco smoke.",
-    "I was a key ingredient of the detonator in the Fat Man plutonium bomb.",
+    "I was a key ingredient of the detonator in the \"Fat Man\" plutonium bomb.",
   ]},
 
   {name:"Astatine", symbol:"At", clues:[
@@ -889,7 +889,7 @@ var elements =
     "I am used as fissile material in nuclear weapons.",
     "The \"Little Boy\" Hiroshima bomb used me.",
     "My oxide used to be used in red ceramic glazes, notably Fiestaware.",
-    "One of my ores is known as Pitchblende.",
+    "One of my ores is known as pitchblende.",
     "I am used in \"depleted\" form in ammunition.",
     "I am the heaviest element found in nature before being synthesized in the lab.",
     "I am named for a planet.",
@@ -1024,7 +1024,7 @@ var elements =
     "I am a transition metal.",
     "I am a synthetic element.",
     "My most stable isotope has a half-life of about 10 seconds.",
-    "A german team is officially credited with my discovery.",
+    "A German team is officially credited with my discovery.",
   ]},
 
   {name:"Meitnerium", symbol:"Mt", clues:[
