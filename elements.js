@@ -1052,7 +1052,6 @@ var elements =
     "I am a transactinide.",
     "I am a transition metal.",
     "My most stable isotope has a half-life of about 29 seconds.",
-    "I am a transactinide.",
     "I am a synthetic element.",
     "I am named for a 15th century astronomer.",
   ]},
