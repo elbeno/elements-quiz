@@ -177,7 +177,7 @@ var fadeTime = 200;
       }
 
       var self = this;
-      $(".ui-progress", this.progressBar).animateProgress(75 - (25*this.clueIndex), 4000,
+      $(".ui-progress", this.progressBar).animateProgress(75 - (25*this.clueIndex), 5000,
                                                           function() {self.addClue();});
     },
 

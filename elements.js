@@ -949,7 +949,7 @@ var elements =
     "I am an actinide.",
     "I am a soft silvery metal.",
     "I am the heaviest element that has had enough of it produced to see.",
-    "I was dicovered in the debris of the first hydrogen bomb explosion.",
+    "I was discovered in the debris of the first hydrogen bomb explosion.",
     "I am named after probably the most famous scientist in the world.",
     "Because I have a short half-life, there are no applications for me outside research.",
     "I am a synthetic element.",
