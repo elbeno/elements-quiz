@@ -223,14 +223,16 @@ var fadeTime = 200;
         $("#clues").empty();
         $("#answers").empty();
         self.answerSelected = false;
-        self.showQuestionResult(correct, self.questions[self.currentQuestion - 1], qscore);
+        self.showQuestionResult(
+          (element == -1 ? 'timeout' : (correct ? 'correct' : 'wrong')),
+          self.questions[self.currentQuestion - 1], qscore);
       });
     },
 
     showQuestionResult: function(correct, element, qscore) {
-      var resultStr = correct ?
-        "Correct! " + qscore + " points!" :
-        "Wrong! The correct answer was:";
+      var resultStr = (correct == 'correct') ?
+        ("Correct! " + qscore + " points!") :
+        (((correct == 'wrong') ? "Wrong! " : "Too late! ") + "The correct answer was:");
 
       $("#questionresult").append("<h3 style=\"line-height:80px;\">"
                                   + resultStr
