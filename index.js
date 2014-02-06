@@ -307,8 +307,9 @@ var fadeTime = 200;
     },
 
     questionScore: function() {
-      var w = $(".ui-progress", this.progressBar).width();
-      return Math.floor(w/10) * this.multiplier;
+      var w1 = this.progressBar.width();
+      var w2 = $(".ui-progress", this.progressBar).width();
+      return Math.floor(100 * w2/w1) * this.multiplier;
     },
 
     calculateMultiplier: function() {
