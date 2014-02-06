@@ -686,7 +686,7 @@ var elements =
   {name:"Ytterbium", symbol:"Yb", clues:[
     "I am a rare earth metal.",
     "I am named after the Swedish village where I was discovered.",
-    "I hold the atomic clock accuracy record: a second in 31 billion years.",
+    "I hold the atomic clock accuracy record: a second in over 10 billion years.",
     "I am used in stress gauges because my resistivity increases under stress.",
   ]},
 
